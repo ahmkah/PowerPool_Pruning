@@ -26,11 +26,11 @@
 
 ![image](https://github.com/ahmkah/PowerPool_Pruning/assets/99053148/310c1be2-cfee-4b4e-baa5-b2a1f377aca1)
 
-* Writing state bloom to disk              name=/sepolia/geth/statebloom.0x409490d515d3f315bea34e05f1e0fe522c56ea44a849fffff38b1cf9d27c2e9f.bf.gz  şeklinde bir dosyo kaydedecek. Zaten en sağda ``eta`` yazan kısımda kaç dakika kaldığını söylüyor bu işlemin tamamlanmasını bekleyin.
+Writing state bloom to disk              name=/sepolia/geth/statebloom.0x409490d515d3f315bea34e05f1e0fe522c56ea44a849fffff38b1cf9d27c2e9f.bf.gz  şeklinde bir dosya kaydedecek. Zaten en sağda ``eta`` yazan kısımda kaç dakika kaldığını söylüyor bu işlemin tamamlanmasını bekleyin.
 
 ## dappnode ==> Packages ==> Sepolia Geth ==> Config içinde yazan EXTRA_OPTIONS kısımdaki  ``--http.api eth,engine,net,web3,txpool, --ws.api eth,engine,net,web3,txpool`` yazıyoruz ve update tıklıyoruz. Sync olmasını bekliyoruz. İşlem bu kadar pruning oldu.
 
-* Şimdi PowerArgent yeniden başlatın ve herşey normale dönsün
+Şimdi PowerArgent yeniden başlatın ve herşey normale dönsün
 
 
 
